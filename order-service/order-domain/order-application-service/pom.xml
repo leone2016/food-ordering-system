@@ -14,4 +14,11 @@
     <properties>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.food.ordering.system</groupId>
+            <artifactId>order-domain-core</artifactId>
+            <!--version is managed in the principal pom.xml-->
+        </dependency>
+    </dependencies>
 </project>
