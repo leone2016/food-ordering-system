@@ -17,6 +17,9 @@ public class Order extends AggregateRoot<OrderId> {
     private OrderStatus orderStatus;
     private List<String> failureMessages;
 
+//    public void initializerOrder(){
+//        setId(new OrderId());
+//    }
     private Order(Builder builder) {
         super.setId(builder.orderId);
         customerId = builder.customerId;
